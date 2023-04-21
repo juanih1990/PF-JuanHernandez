@@ -23,11 +23,13 @@
     <title>Muebles Quemu</title>
 </head>
 <body class="container-fluid">
-    <div class="row cabecera animate__animated animate__bounce">
-            <header class="col-12 col-xl-12 d-flex justify-content-center align-items-center">
+
+
+    <header class="row cabecera animate__animated animate__bounce">
+            <div class="col-12 col-xl-12 d-flex justify-content-center align-items-center">
                 <h1 class="animate__animated animate__backInDown">Muebles Quemu.. Tu estilo Importa !!</h1>
-            </header>
-    </div> 
+            </div>
+    </header> 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Menu</a>
@@ -48,41 +50,41 @@
             </ul>
           </div>
         </div>
-      </nav> 
-    <div class="row __bloqueImagenPrincipal">    
+    </nav> 
+    <section class="row __bloqueImagenPrincipal">    
             <div class="col-12 col-xl-12 __imgPrincipal" data-aos="fade-right" data-aos-duration="2500">
                       <!-- imagen -->
             </div>
-    </div>
-    <div class="row ">
-            <section class="col-12 col-xl-12 d-flex justify-content-center __fontParrafo">
+    </section>
+    <article class="row ">
+            <div class="col-12 col-xl-12 d-flex justify-content-center __fontParrafo">
                 <h4>Diseño y Funcionalidad </h4>
                 <p>Dotados de una amplia trayectoria en el mundo del mobiliario, diseñamos y producimos muebles destacados por la calidad de mano de obra, el mas alto nivel 
                    constructivo y un nivel unico de diseño. <b> Nuestra mayor meta </b> aportar un <b> valor añadido  </b> en la decoracion de tu hogar.
                 </p>
-            </section>
-    </div> 
-    <div class="row">
+              </div>
+    </article> 
+    <article class="row">
         <a id="ubicacion"></a>
-           <section class="col-12 col-xl-12 d-flex justify-content-center align-items-center __ubicacion-icono">
+           <div class="col-12 col-xl-12 d-flex justify-content-center align-items-center __ubicacion-icono">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg> Ubicacion 
-           </section>
-    </div>
-    <div class="row">
-            <section class="col-12 col-xl-12 __ubicacion-mapa d-flex justify-content-center align-items-center" data-aos="fade-up-left" data-aos-duration="1000">
+            </div>
+    </article>
+    <section class="row">
+            <div class="col-12 col-xl-12 __ubicacion-mapa d-flex justify-content-center align-items-center" data-aos="fade-up-left" data-aos-duration="1000">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d894.6206424132712!2d-63.5681938!3d-36.0526508!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x95c3a783cd744d6d%3A0xc0a2ec7ae8452183!2sMuebles%20Quem%C3%BA%20Sarmiento%20133%20L6333%20Quem%C3%BA%20Quem%C3%BA%20La%20Pampa!3m2!1d-36.052650799999995!2d-63.568193799999996!5e1!3m2!1ses-419!2sar!4v1678226705170!5m2!1ses-419!2sar" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="animate__animated animate__animated"></iframe>
-            </section>
-    </div>
-    <div class="row">   
-            <section class="col-12 col-xl-12 d-flex justify-content-start align-items-center __fontInterbloque">
+            </div>
+    </section>
+    <article class="row">   
+            <div class="col-12 col-xl-12 d-flex justify-content-start align-items-center __fontInterbloque">
                 <h6>Te mostramos algunos trabajos ...</h6>
-            </section>
+            </div>
             <a id="Trabajos"></a>  
-    </div>
-    <div class="row d-flex justify-content-center">
+    </article>
+    <section class="row d-flex justify-content-center">
             <div class="col-12 col-xl-3 d-flex m-2">     
                 <div class="card mb-3 m-2" style="max-width: 540px;">
                     <div class="row g-0">
@@ -128,8 +130,8 @@
                     </div>
                 </div>
             </div>         
-    </div>            
-            <footer class="row d-flex justify-content-between">
+          </section>            
+    <footer class="row d-flex justify-content-between">
                 <a id="Contactanos"></a>
               <div class="col-12 col-xl-3 lineaHorizontalMobie"> 
                 <p>Contactanos :</p>
@@ -162,11 +164,12 @@
                 <p><b>Carpintero</b>: Leandro Bousquet</p>
                 <p><b>Ayudante</b>: Puma Aguilera</p> 
               </div>
-            </footer>
+    </footer>
        
      <!-- boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+   
     <!-- animaciones -->
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

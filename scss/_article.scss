@@ -1,0 +1,21 @@
+article{
+     div.__fontParrafo{
+        h4{
+            margin-top: 5px; 
+            color: #ab644b;  
+        }
+        p{
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Didact Gothic', sans-serif;
+            width: 500px;
+            margin-top: 60px;
+        }     
+     }
+     div.__ubicacion-icono{
+        @include __interBloqueS();
+    }  
+    div.__fontInterbloque{
+        @include __interBloqueS();
+    }
+} 
+

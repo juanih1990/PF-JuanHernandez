@@ -1,22 +1,14 @@
-section.__fontParrafo{
-        h4{
-            margin-top: 5px; 
-            color: #ab644b;  
-        }
-        p{
-            font-family: 'Dancing Script', cursive;
-            font-family: 'Didact Gothic', sans-serif;
-            width: 500px;
-            margin-top: 60px;
-        }     
+section.__bloqueImagenPrincipal{
+    height: 600px;
 }
-section.__ubicacion-icono{
-          @include __interBloqueS();
-}
-section.__ubicacion-mapa{
-    width: 100%;
-    height: 500px;
-}
-section.__fontInterbloque{
-         @include __interBloqueS();
+section{
+    div.__imgPrincipal{
+        height: 600px;
+        background-image: url(../img/carpint.jpg);
+        background-size: cover;
+    }
+    div.__ubicacion-mapa{
+        width: 100%;
+        height: 500px;
+    }
 }
