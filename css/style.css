@@ -69,9 +69,91 @@ section div.__ubicacion-mapa {
   width: 100%;
   height: 500px;
 }
+section div.bgcol1 {
+  background-color: rgb(255, 255, 255);
+  height: 45%;
+  width: 80%;
+  margin-top: 15%;
+  margin-left: -25%;
+  z-index: 1;
+}
+section div._trabajos-IMG1 {
+  background-color: rgb(17, 17, 17);
+  height: 100%;
+  background-image: url(../img/carpint.jpg);
+  background-size: cover;
+  border: 1px solid black;
+  background-image: url(../img/1.jpg);
+}
+section div._trabajos-IMG1:hover {
+  z-index: 3;
+  transform: translateX(10px);
+}
+section div._trabajos-IMG2 {
+  background-color: rgb(17, 17, 17);
+  height: 100%;
+  background-image: url(../img/carpint.jpg);
+  background-size: cover;
+  border: 1px solid black;
+  background-image: url(../img/2.jpg);
+}
+section div._trabajos-IMG2:hover {
+  z-index: 3;
+  transform: translateX(10px);
+}
+section div._trabajos-IMG3 {
+  background-color: rgb(17, 17, 17);
+  height: 100%;
+  background-image: url(../img/carpint.jpg);
+  background-size: cover;
+  border: 1px solid black;
+  background-image: url(../img/3.jpg);
+}
+section div._trabajos-IMG3:hover {
+  z-index: 3;
+  transform: translateX(10px);
+}
+section div._trabajos-IMG4 {
+  background-color: rgb(17, 17, 17);
+  height: 100%;
+  background-image: url(../img/carpint.jpg);
+  background-size: cover;
+  border: 1px solid black;
+  background-image: url(../img/4.jpg);
+}
+section div._trabajos-IMG4:hover {
+  z-index: 3;
+  transform: translateX(10px);
+}
+section div._trabajos-IMG5 {
+  background-color: rgb(17, 17, 17);
+  height: 100%;
+  background-image: url(../img/carpint.jpg);
+  background-size: cover;
+  border: 1px solid black;
+  background-image: url(../img/5.jpg);
+}
+section div._trabajos-IMG5:hover {
+  z-index: 3;
+  transform: translateX(10px);
+}
+section div h6 {
+  margin-left: 5%;
+  font-family: "Dancing Script", cursive;
+  font-family: "Didact Gothic", sans-serif;
+}
+section div span {
+  margin-left: 40%;
+  color: rgb(83, 56, 4);
+}
 
 section._contactanos-Contenedor {
   height: 100vh;
+}
+
+section.bgsec {
+  background-color: rgb(117, 115, 115);
+  height: 40vh;
 }
 
 @media (min-width: 780px) {
@@ -108,10 +190,15 @@ body._contactanos-BG {
   height: 100vh;
 }
 
-main {
+main._contactanos-IMG {
   height: 70vh;
   background-image: url(../img/7.png);
   object-fit: cover;
+}
+
+main.bgmain {
+  background-color: rgb(117, 115, 115);
+  height: 100vh;
 }
 
 aside {

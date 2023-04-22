@@ -2,8 +2,12 @@ body._contactanos-BG{
     background: linear-gradient(90deg, rgba(48,13,2,0.9780287114845938) 22%, rgba(85,32,8,0.9976365546218487) 58%, rgba(120,81,18,1) 83%);
     height: 100vh;
 }
-main{
+main._contactanos-IMG{
     height:70vh;
     background-image: url(../img/7.png);
     object-fit: cover;
+}
+main.bgmain{
+    background-color: rgb(117, 115, 115);
+    height: 100vh;
 }
