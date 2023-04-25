@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: rgb(30, 255, 0);
+  color: rgb(204, 204, 204);
 }
 
 header.cabecera {
@@ -22,10 +22,18 @@ header h1 {
   font-family: "Dancing Script", cursive;
   color: #EFEFE9;
 }
+header h1._mediosDePago-TitleColor {
+  font-family: "Dancing Script", cursive;
+  color: #282a88;
+}
+
+header.p-10 {
+  padding: 50px;
+}
 
 @media (min-width: 780px) {
   nav li:hover {
-    transform: scale(1.3, 1.3);
+    transform: scale(1.2, 1.2);
     color: black;
   }
 }
@@ -54,6 +62,31 @@ article div.__fontInterbloque {
   height: 150px;
   font-family: "Dancing Script", cursive;
   font-family: "Didact Gothic", sans-serif;
+}
+article img {
+  margin-bottom: 10px;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+article h2 {
+  color: rgb(24, 23, 23);
+  font-family: "Dancing Script", cursive;
+  font-family: "Didact Gothic", sans-serif;
+}
+article h2:hover {
+  transform: scale(1.2, 1.2);
+  color: rgb(73, 73, 73);
+}
+article a {
+  color: rgb(24, 23, 23);
+}
+article a:hover {
+  color: rgb(73, 73, 73);
+}
+
+article.p-10 {
+  padding: 50px;
 }
 
 section.__bloqueImagenPrincipal {
@@ -148,6 +181,10 @@ section._contactanos-Contenedor {
 
 section.bgsec {
   height: 40vh;
+}
+
+section._mediosDePago-bgColor {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287115) 9%, rgba(255, 255, 255, 0.9976365546) 35%, rgb(250, 243, 243) 87%);
 }
 
 @media (min-width: 780px) {
