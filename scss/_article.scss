@@ -39,6 +39,18 @@ article{
     a:hover{
         color: rgb(73, 73, 73);
     }
+    div._questions-MarginTop{
+        margin-top: 15%;
+    }
+    div._questions-MarginTop svg{
+        color: white;
+        background-color: rgb(158, 214, 158);
+        border-radius: 20px;
+    }
+    div h3{
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Didact Gothic', sans-serif;
+    }
 } 
 article.p-10{
     padding: 50px;

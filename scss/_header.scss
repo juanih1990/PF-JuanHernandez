@@ -1,15 +1,24 @@
+@mixin _h1Title{
+      font-family: 'Dancing Script', cursive;
+}
 header.cabecera{
       height: 150px;
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,59,71,1) 27%, rgba(7,146,175,1) 100%);;
 }
 header{   
      h1{
-        font-family: 'Dancing Script', cursive;
+        @include _h1Title();
         color: #EFEFE9;
      }
      h1._mediosDePago-TitleColor{
-            font-family: 'Dancing Script', cursive;
+            @include _h1Title();
             color: #282a88;
+     }
+     h1._questions-Title{
+            @include _h1Title();
+            color: #000000;
+            margin: 50px;
+            font-weight: bold;
      }
 }
 header.p-10{

@@ -26,6 +26,12 @@ header h1._mediosDePago-TitleColor {
   font-family: "Dancing Script", cursive;
   color: #282a88;
 }
+header h1._questions-Title {
+  font-family: "Dancing Script", cursive;
+  color: #000000;
+  margin: 50px;
+  font-weight: bold;
+}
 
 header.p-10 {
   padding: 50px;
@@ -83,6 +89,18 @@ article a {
 }
 article a:hover {
   color: rgb(73, 73, 73);
+}
+article div._questions-MarginTop {
+  margin-top: 15%;
+}
+article div._questions-MarginTop svg {
+  color: white;
+  background-color: rgb(158, 214, 158);
+  border-radius: 20px;
+}
+article div h3 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Didact Gothic", sans-serif;
 }
 
 article.p-10 {
@@ -244,6 +262,10 @@ aside h1.m-top5 {
 }
 aside div.m-top10 {
   margin-top: 10%;
+}
+
+body._questions-BGcolor {
+  background-image: linear-gradient(to top bottom, rgb(89, 120, 93) 30%, rgb(235, 235, 235) 50%);
 }
 
 /*# sourceMappingURL=style.css.map */
