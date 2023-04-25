@@ -1,6 +1,6 @@
 @mixin trabajosIMG{
     height: 100%;
-    background-image: url(../img/carpint.jpg);
+    background-image: url(../img/carpint.png);
     background-size: cover;
     border: 1px solid black;
 }
@@ -10,7 +10,7 @@ section.__bloqueImagenPrincipal{
 section{
     div.__imgPrincipal{
         height: 600px;
-        background-image: url(../img/carpint.jpg);
+        background-image: url(../img/carpint.png);
         background-size: cover;
     }
     div.__ubicacion-mapa{
@@ -27,7 +27,7 @@ section{
     }
     div._trabajos-IMG1{
         @include trabajosIMG();
-        background-image: url(../img/1.jpg);    
+        background-image: url(../img/1.png);    
     } 
     div._trabajos-IMG1:hover{
         z-index: 3;
@@ -36,7 +36,7 @@ section{
 
     div._trabajos-IMG2{
         @include trabajosIMG();
-        background-image: url(../img/2.jpg);    
+        background-image: url(../img/2.png);    
     }
     div._trabajos-IMG2:hover{
         z-index: 3;
@@ -45,7 +45,7 @@ section{
 
     div._trabajos-IMG3{
         @include trabajosIMG();
-        background-image: url(../img/3.jpg);    
+        background-image: url(../img/3.png);    
     }
     div._trabajos-IMG3:hover{
         z-index: 3;
@@ -54,7 +54,7 @@ section{
 
     div._trabajos-IMG4{
         @include trabajosIMG();
-        background-image: url(../img/4.jpg);    
+        background-image: url(../img/4.png);    
     
     }
     div._trabajos-IMG4:hover{
@@ -64,7 +64,7 @@ section{
 
     div._trabajos-IMG5{
         @include trabajosIMG();
-        background-image: url(../img/5.jpg);    
+        background-image: url(../img/5.png);    
     }
     div._trabajos-IMG5:hover{
         z-index: 3;
@@ -95,7 +95,7 @@ section.bgsec{
 section._mediosDePago-bgColor{
     background: linear-gradient(90deg, rgba(0,0,0,0.9780287114845938) 9%, rgba(255,255,255,0.9976365546218487) 35%, rgba(250,243,243,1) 87%);
 }
-section._contactanos-BG{
+sectiongit ._contactanos-BG{
     background: linear-gradient(90deg, rgba(48,13,2,0.9780287114845938) 22%, rgba(85,32,8,0.9976365546218487) 58%, rgba(120,81,18,1) 83%);
     height: 100vh;
 }
