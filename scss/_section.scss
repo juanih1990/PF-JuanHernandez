@@ -4,7 +4,7 @@
     background-size: cover;
     border: 1px solid black;
 }
-@media(min-width: 780px){
+@media(min-width: 1365px){
         section.__bloqueImagenPrincipal{
             height: 600px;
         }
@@ -104,7 +104,7 @@
             height: 100vh;
         }
 }
-@media(max-width: 780px){
+@media(max-width:1365px){
             section.__bloqueImagenPrincipal{
                 height: 600px;
             }
@@ -163,12 +163,12 @@
                 }
             }
             section._contactanos-Contenedor{
-                height:100vh;
+                height:95vh;
             }
             section.bgsec{
                 height: 40vh;
             }
             section._heightContactanos{
-                height: 100vh;
+                height: 95vh;
             }
 }
