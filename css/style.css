@@ -6,11 +6,11 @@
 a {
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
-  color: rgb(204, 204, 204);
+  color: rgb(218, 210, 210);
 }
 
 header.cabecera {
@@ -82,13 +82,13 @@ article h2 {
 }
 article h2:hover {
   transform: scale(1.2, 1.2);
-  color: rgb(73, 73, 73);
+  color: rgb(218, 210, 210);
 }
 article a {
   color: rgb(24, 23, 23);
 }
 article a:hover {
-  color: rgb(73, 73, 73);
+  color: rgb(218, 210, 210);
 }
 article div._questions-MarginTop {
   margin-top: 15%;
@@ -107,109 +107,185 @@ article.p-10 {
   padding: 50px;
 }
 
-section.__bloqueImagenPrincipal {
-  height: 600px;
+@media (min-width: 780px) {
+  section.__bloqueImagenPrincipal {
+    height: 600px;
+  }
+  section div.__imgPrincipal {
+    height: 600px;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+  }
+  section div.__ubicacion-mapa {
+    width: 100%;
+    height: 500px;
+  }
+  section div.bgcol1 {
+    background-color: rgb(255, 255, 255);
+    height: 45%;
+    width: 80%;
+    margin-top: 15%;
+    margin-left: -80px;
+    z-index: 1;
+  }
+  section div.bgcol1:hover {
+    opacity: 0;
+  }
+  section div._trabajos-IMG1 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/1.png);
+  }
+  section div._trabajos-IMG1:hover {
+    z-index: 3;
+    transform: translateX(10px);
+    transform: scale(1.2, 1.2);
+  }
+  section div._trabajos-IMG2 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/2.png);
+  }
+  section div._trabajos-IMG2:hover {
+    z-index: 3;
+    transform: translateX(10px);
+    transform: scale(1.2, 1.2);
+  }
+  section div._trabajos-IMG3 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/3.png);
+  }
+  section div._trabajos-IMG3:hover {
+    z-index: 3;
+    transform: translateX(10px);
+    transform: scale(1.2, 1.2);
+  }
+  section div._trabajos-IMG4 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/4.png);
+  }
+  section div._trabajos-IMG4:hover {
+    z-index: 3;
+    transform: translateX(10px);
+    transform: scale(1.2, 1.2);
+  }
+  section div._trabajos-IMG5 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/5.png);
+  }
+  section div._trabajos-IMG5:hover {
+    z-index: 3;
+    transform: translateX(10px);
+    transform: scale(1.2, 1.2);
+  }
+  section div h6 {
+    margin-left: 5%;
+    font-family: "Dancing Script", cursive;
+    font-family: "Didact Gothic", sans-serif;
+  }
+  section div span {
+    margin-left: 40%;
+    color: rgb(83, 56, 4);
+  }
+  section._contactanos-Contenedor {
+    height: 100vh;
+  }
+  section.bgsec {
+    height: 40vh;
+  }
+  section._heightContactanos {
+    height: 100vh;
+  }
 }
-
-section div.__imgPrincipal {
-  height: 600px;
-  background-image: url(../img/carpint.png);
-  background-size: cover;
+@media (max-width: 780px) {
+  section.__bloqueImagenPrincipal {
+    height: 600px;
+  }
+  section div.__imgPrincipal {
+    height: 600px;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+  }
+  section div.__ubicacion-mapa {
+    width: 100%;
+    height: 500px;
+  }
+  section div.bgcol1 {
+    background-color: rgb(255, 255, 255);
+    height: 25%;
+    width: 80%;
+    z-index: 1;
+  }
+  section div.bgcol1:hover {
+    opacity: 0;
+  }
+  section div._trabajos-IMG1 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/1.png);
+  }
+  section div._trabajos-IMG2 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/2.png);
+  }
+  section div._trabajos-IMG3 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/3.png);
+  }
+  section div._trabajos-IMG4 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/4.png);
+  }
+  section div._trabajos-IMG5 {
+    height: 100%;
+    background-image: url(../img/carpint.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-image: url(../img/5.png);
+  }
+  section div h6 {
+    margin-left: 5%;
+    font-family: "Dancing Script", cursive;
+    font-family: "Didact Gothic", sans-serif;
+  }
+  section div span {
+    margin-left: 40%;
+    color: rgb(83, 56, 4);
+  }
+  section._contactanos-Contenedor {
+    height: 100vh;
+  }
+  section.bgsec {
+    height: 40vh;
+  }
+  section._heightContactanos {
+    height: 100vh;
+  }
 }
-section div.__ubicacion-mapa {
-  width: 100%;
-  height: 500px;
-}
-section div.bgcol1 {
-  background-color: rgb(255, 255, 255);
-  height: 45%;
-  width: 80%;
-  margin-top: 15%;
-  margin-left: -25%;
-  z-index: 1;
-}
-section div._trabajos-IMG1 {
-  height: 100%;
-  background-image: url(../img/carpint.png);
-  background-size: cover;
-  border: 1px solid black;
-  background-image: url(../img/1.png);
-}
-section div._trabajos-IMG1:hover {
-  z-index: 3;
-  transform: translateX(10px);
-}
-section div._trabajos-IMG2 {
-  height: 100%;
-  background-image: url(../img/carpint.png);
-  background-size: cover;
-  border: 1px solid black;
-  background-image: url(../img/2.png);
-}
-section div._trabajos-IMG2:hover {
-  z-index: 3;
-  transform: translateX(10px);
-}
-section div._trabajos-IMG3 {
-  height: 100%;
-  background-image: url(../img/carpint.png);
-  background-size: cover;
-  border: 1px solid black;
-  background-image: url(../img/3.png);
-}
-section div._trabajos-IMG3:hover {
-  z-index: 3;
-  transform: translateX(10px);
-}
-section div._trabajos-IMG4 {
-  height: 100%;
-  background-image: url(../img/carpint.png);
-  background-size: cover;
-  border: 1px solid black;
-  background-image: url(../img/4.png);
-}
-section div._trabajos-IMG4:hover {
-  z-index: 3;
-  transform: translateX(10px);
-}
-section div._trabajos-IMG5 {
-  height: 100%;
-  background-image: url(../img/carpint.png);
-  background-size: cover;
-  border: 1px solid black;
-  background-image: url(../img/5.png);
-}
-section div._trabajos-IMG5:hover {
-  z-index: 3;
-  transform: translateX(10px);
-}
-section div h6 {
-  margin-left: 5%;
-  font-family: "Dancing Script", cursive;
-  font-family: "Didact Gothic", sans-serif;
-}
-section div span {
-  margin-left: 40%;
-  color: rgb(83, 56, 4);
-}
-
-section._contactanos-Contenedor {
-  height: 100vh;
-}
-
-section.bgsec {
-  height: 40vh;
-}
-
-section._mediosDePago-bgColor {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287115) 9%, rgba(255, 255, 255, 0.9976365546) 35%, rgb(250, 243, 243) 87%);
-}
-
-section._contactanos-BG {
-  background: linear-gradient(90deg, rgba(48, 13, 2, 0.9780287115) 22%, rgba(85, 32, 8, 0.9976365546) 58%, rgb(120, 81, 18) 83%);
-  height: 100vh;
-}
-
 @media (min-width: 780px) {
   footer {
     color: #ffefcd;
@@ -245,27 +321,55 @@ main._contactanos-IMG {
   object-fit: cover;
 }
 
-main.bgmain {
-  background: linear-gradient(90deg, rgba(41, 41, 41, 0.9780287115) 22%, rgba(116, 103, 103, 0.9976365546) 65%, rgb(164, 161, 155) 83%);
+main._height {
   height: 100vh;
 }
 
-aside {
-  background-color: rgb(248, 248, 248);
-  height: 70vh;
+@media (min-width: 780px) {
+  aside {
+    background-color: rgb(248, 248, 248);
+    height: 70vh;
+  }
+  aside h1 {
+    font-family: "Dancing Script", cursive;
+  }
+  aside h1.m-top5 {
+    margin-top: 5%;
+  }
+  aside div.m-top10 {
+    margin-top: 10%;
+  }
 }
-aside h1 {
-  font-family: "Dancing Script", cursive;
+@media (max-width: 780px) {
+  aside {
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+  }
+  aside h1 {
+    font-family: "Dancing Script", cursive;
+  }
+  aside h1.m-top5 {
+    margin-top: 10%;
+  }
 }
-aside h1.m-top5 {
-  margin-top: 5%;
-}
-aside div.m-top10 {
-  margin-top: 10%;
+body._questions-BGcolor {
+  background: linear-gradient(135deg, rgb(211, 231, 214) 50%, rgb(235, 235, 235) 50%);
 }
 
-body._questions-BGcolor {
-  background-image: linear-gradient(to top bottom, rgb(89, 120, 93) 30%, rgb(235, 235, 235) 50%);
+body._mediosDePago-bgColor {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287115) 9%, rgba(255, 255, 255, 0.9976365546) 35%, rgb(250, 243, 243) 87%);
+}
+
+body div button {
+  margin-top: 5px;
+}
+
+body._trabajo-bg {
+  background: linear-gradient(115deg, rgb(211, 231, 214) 50%, rgb(235, 235, 235) 50%);
+}
+
+body._contactanos-BG {
+  background: linear-gradient(90deg, rgba(48, 13, 2, 0.9780287115) 22%, rgba(85, 32, 8, 0.9976365546) 58%, rgb(120, 81, 18) 83%);
 }
 
 /*# sourceMappingURL=style.css.map */

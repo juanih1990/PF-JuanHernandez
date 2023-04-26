@@ -1,3 +1,19 @@
 body._questions-BGcolor{
-    background-image: linear-gradient(to top bottom, rgba(89,120,93,1) 30%, rgba(235,235,235,1) 50%);
+    background: $_GradienteBody;
+}
+body._mediosDePago-bgColor{
+    background: $_GradienteMediosPago;
+}
+body{
+    div{
+        button{
+            margin-top: $mt-5;
+        }
+    }
+}
+body._trabajo-bg{
+    background: $_GradienteBG-main;
+}
+body._contactanos-BG{
+    background: $_GradienteContactanos;
 }

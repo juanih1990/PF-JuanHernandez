@@ -5,10 +5,10 @@
 a{
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: $_ColorLink;
 }
 a{
     &:hover{
-          color: rgb(204, 204, 204);
+          color: $_ColorHover1;
    }
 }

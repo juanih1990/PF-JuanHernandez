@@ -1,14 +1,14 @@
 article{
      div.__fontParrafo{
         h4{
-            margin-top: 5px; 
-            color: #ab644b;  
+            margin-top: $mt-5; 
+            color: $_Colorh4;  
         }
         p{
-            font-family: 'Dancing Script', cursive;
-            font-family: 'Didact Gothic', sans-serif;
+            font-family: $_fontTitle;
+            font-family: $_font-Sans-serif;
             width: 500px;
-            margin-top: 60px;
+            margin-top: $mt-60;
         }     
      }
      div.__ubicacion-icono{
@@ -18,29 +18,28 @@ article{
         @include __interBloqueS();
     }
     img{
-        margin-bottom: 10px;
-        //color: rgb(117, 161, 168);
+        margin-bottom: $mb-10;
         width: 64px;
         height: 64px;
         object-fit: contain;
     }
     h2{
-        color: rgb(24, 23, 23);
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Didact Gothic', sans-serif;
+        color: $_ColorNegrod;
+        font-family:  $_fontTitle;
+        font-family: $_font-Sans-serif;
     }
     h2:hover{
         transform: scale(1.2,1.2);
-        color: rgb(73, 73, 73);
+        color: $_ColorHover1;
     }
     a{
-        color: rgb(24, 23, 23);
+        color: $_ColorNegrod;
     }
     a:hover{
-        color: rgb(73, 73, 73);
+        color: $_ColorHover1;
     }
     div._questions-MarginTop{
-        margin-top: 15%;
+        margin-top: $mt-15porciento;
     }
     div._questions-MarginTop svg{
         color: white;
@@ -48,11 +47,11 @@ article{
         border-radius: 20px;
     }
     div h3{
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Didact Gothic', sans-serif;
+        font-family: $_fontTitle;
+        font-family: $_font-Sans-serif;
     }
 } 
 article.p-10{
-    padding: 50px;
+    padding: $p-50;
 }
 
